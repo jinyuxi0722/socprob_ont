@@ -4,11 +4,11 @@
 @prefix oa: <http://www.w3.org/ns/oa#> .
 @prefix geojp: <http://geonames.jp/resource/> .
 
-tag:1 rdf:type oa:Annotation;
-  oa:hasTarget <https://www.nikkei.com/article/DGXMZO24103660Q7A131C1CN8000/>;
-  oa:hasBody sp:パワーハラスメント;
-  oa:motivatedBy oa:tagging.
-tag:2 rdf:type oa:Annotation;
-  oa:hasTarget <https://www.nikkei.com/article/DGXMZO24103660Q7A131C1CN8000/>;
+tag:501 rdf:type oa:Annotation ;
+oa:hasTarget <https://www.chukyo-u.ac.jp/research_2/news/2017/09/012028.html/>;
+oa:hasBody sp:チャイルド・プア;
+oa:motivatedBy oa:tagging.
+tag:502 rdf:type oa:Annotation;
+  oa:hasTarget <https://www.chukyo-u.ac.jp/research_2/news/2017/09/012028.html/>;
   oa:hasBody geojp:愛知県名古屋市;
   oa:motivatedBy oa:tagging.
